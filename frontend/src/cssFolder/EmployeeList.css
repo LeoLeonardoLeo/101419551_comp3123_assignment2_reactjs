@@ -1,0 +1,87 @@
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+
+.add-button {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #b7cede;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.employee {
+  width: 85%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  display: flex;
+  padding: 12px;
+  background-color: #ecf0f1;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #7f8c8d;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #ddd;
+}
+
+.table-title span {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+}
+
+.table-row {
+  display: flex;
+  padding: 12px;
+  background-color: #fafafa;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-row span {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  font-size: 1rem;
+  color: #2c3e50;
+}
+
+.actions button {
+  margin: 0 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #b7cede;
+  background-color: transparent;
+  color: #3498db;
+  border-radius: 25px;
+}
+
+.search {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 10px;
+  display: flex;
+
+  border: 1px solid #ddd;
+  border-radius: 50px; /* Increased border-radius for a rounder shape */
+  font-size: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  outline: none;
+  transition: box-shadow 0.2s ease-in-out;
+}

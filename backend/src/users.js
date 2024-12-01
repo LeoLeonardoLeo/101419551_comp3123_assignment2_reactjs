@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const User = require('./modules/userSchema');
+const User = require('../modules/userSchema');
 
 
 function idMaker(){

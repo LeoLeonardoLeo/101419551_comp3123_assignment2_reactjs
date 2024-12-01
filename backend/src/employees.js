@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-const Employee = require('./modules/employeesSchema');
+const Employee = require('../modules/employeesSchema');
 
 function idMaker(){
     const rndUserID = Math.random().toString(16).substring(2, 14);
